@@ -9,7 +9,7 @@ class BoshContent
     {
         $this->title = $title;
         $this->num = $num;
-        $this->run($this->title,$this->num);
+        $this->run();
     }
 
     public function run(){
